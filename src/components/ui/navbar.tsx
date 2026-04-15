@@ -21,6 +21,12 @@ export function Navbar() {
 
         <div className="flex items-center gap-2">
           <Link
+            href="/marketplace"
+            className="inline-flex h-9 items-center justify-center rounded-full bg-gray-900 px-5 text-sm font-medium text-white transition-colors hover:bg-gray-700"
+          >
+            See Sample Marketplace
+          </Link>
+          <Link
             href="/company/novapulse"
             className="inline-flex h-9 items-center justify-center rounded-full bg-gray-900 px-5 text-sm font-medium text-white transition-colors hover:bg-gray-700"
           >
